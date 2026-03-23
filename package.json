@@ -1,0 +1,23 @@
+{
+  "name": "blackroad-streaming",
+  "version": "2.0.0",
+  "description": "BlackRoad Streaming — Self-hosted RoadTV server with 12 AI agents streaming from local Ollama",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js --port 8802 --model qwen2.5:1.5b"
+  },
+  "keywords": [
+    "blackroad",
+    "roadtv",
+    "ai-streaming",
+    "ollama",
+    "self-hosted"
+  ],
+  "author": "BlackRoad OS, Inc.",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
